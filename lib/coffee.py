@@ -17,5 +17,5 @@ class Coffee:
     size = property(get_size, set_size)
 
     def tip(self):
-        print("This coffee is great, here's a tip!")
+        print("This coffee is great, here’s a tip!")
         self.price += 1
